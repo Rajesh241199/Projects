@@ -6,6 +6,7 @@ Insurance is a policy that eliminates or decreases loss costs occurred by variou
 **Steps For Buliding a  Model**
 
 1.Display Top 5 Rows of The Dataset
+
 2. Check Last 5 Rows of The Dataset
 3. Find Shape of Our Dataset (Number of Rows And Number of Columns)
 4. Get Information About Our Dataset Like Total Number Rows, Total Number of Columns, Datatypes of Each Column And Memory Requirement
@@ -26,6 +27,8 @@ prediction on training data
 14. Finding R square value for training data 
 15. prediction on test data 
 16. Finding R square value for test data 
+
+
 *Building Predictive system*
 1. changing the input_data to a numpy data
 2. reshape the array
