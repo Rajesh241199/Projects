@@ -12,15 +12,6 @@ In this project, we use data shared by Olist - a Brazilian e-commerce platfrom. 
 
 In addition, Brazilian demographic data at state level is used for customer's social-economic context.
 
-### Notebooks:
-You can find the complete notebooks in this repository or click the links below for a quick view: 
-- <a href="https://nbviewer.jupyter.org/github/trang-h-vo/Predict-Customer-Satisfaction/blob/main/Olist_Data_Prep.ipynb"> Olist_Data_Prep.ipynb </a> : The pre-processing steps to clean the data.
-- <a href="https://nbviewer.jupyter.org/github/trang-h-vo/Predict-Customer-Satisfaction/blob/main/Olist_EDA_Feature_Engineering.ipynb"> Olist_EDA_Feature_Engineering.ipynb </a> : The exploratory analysis and feature engineering. 
-- <a href="https://nbviewer.jupyter.org/github/trang-h-vo/Predict-Customer-Satisfaction/blob/main/Olist_Modeling.ipynb"> Olist_Modeling.ipynb </a> : The modeling steps and result interpretation.
-
-### Credit: 
-This is an extended version of a school group project at the University Paris Dauphine. I'd like to thank my group mate Zoé Hance whom I worked with intensively throughout the project.
-
 ### Data source: 
 Raw data of Olist and detailed descriptions of the attributes were retrieved from this post on Kaggle: <a href="https://www.kaggle.com/olistbr/brazilian-ecommerce"> Brazilian E-Commerce Public Dataset by Olist </a>.
 <br>
