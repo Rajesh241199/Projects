@@ -206,36 +206,3 @@ The results obtained until now can be shown on the ROC curve presented below:
 
   All the layers have a Relu activation function, except the last one that is sigmoid, to obtain the probability of a Malignant mole.
 
-#### 6.2 iOS App
- As part of this project I have developed an iOS app using the coreML libraries released by apple. The advantage to use this libraries is that the model and the image are stored locally on the phone, and internet connection is not needed. The keras model trained before is converted into coreML model and loaded into the phone to make the predictions. Below is a picture of the app and two examples of results.
-
-  ![](images/iosApp1.png?raw=true)
-
-  - Example of low risk mole result:
-
-  ![](images/iosApp2.jpg?raw=true)
-
-  - Example of High risk mole result:
-
-  ![](images/iosApp3.jpg?raw=true)
-
-
-#### 6.3 webApp
-
-  In order to kae in consideration the user of different platforms, I also create a web App that can be accessed on:
-   http://skinmolesrisk.ddns.net:7000
-  This app is responsive so can be used directly from any mobile phone or web browser.
-
-  ![](images/webApp1.png?raw=true)
-
-  ![](images/webApp2.png?raw=true)
-
-### 7. Next Steps
-
-- Publish Ios App
-- Create Android App
-- Improve model with additional data
-
-### 8. Disclaimer
-
-This tool has been designed only for educational purposes to demonstrate the use of Machine Learning tools in the medical field. This tool does not replace advice or evaluation by a medical professional. Nothing on this site should be construed as an attempt to offer a medical opinion or practice medicine.
