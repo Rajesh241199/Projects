@@ -86,22 +86,9 @@ To evaluate the different models we will use ROC Curves and AUC score. To choose
 the correct model we will evaluate the precision and accuracy to set the threshold
 level that represent a good tradeoff between TPR and FPR.
 
-### 3. Results presentation
-As mention before the idea is to generate a tool to predict the probability of a
-malign mole. To do it, I'm planning to provide the following resources:
 
-  **1. Web App:** The web app will have the possibility that a user upload a high
-quality image of an specific mole. The results will be a prediction about the
-probability that the given mole be malign in terms of percentage. The backend
-that contain the web app and model loaded will be located in Amazon Web Services.
 
-  **2. Iphone App:** Our CNN model will be loaded into the iPhone to make local predictions.
-Advantages: The image data don't need to be uploaded to any server, because the
-model predictions can be done through the pre-trained model loaded into the iPhone.
-
-  **3. Android App:** (Optional if time allow it)
-
-### 4. Project Schedule
+### 3. Project Schedule
 
 | Activity                                        | Days | Status      | Prog |
 | :---------------------------------------------- | :--- | :---------- | :--- |
@@ -116,7 +103,7 @@ model predictions can be done through the pre-trained model loaded into the iPho
 | 9. Android App Development                      | 2    | Pending     | ---- |
 | 10. Presentation preparation                    | 1    | Done        | ++++ |
 
-### 5. Tools to Use
+### 4. Tools to Use
  - Tensorflow (GPU High performance computing - NVIDIA)
  - keras
  - Python
@@ -128,7 +115,7 @@ model predictions can be done through the pre-trained model loaded into the iPho
 
 ![](images/Tech_Stack.png?raw=true)
 
-### 6. Final Results
+### 5. Final Results
 #### First Model: CNN from scratch, no data augmentation
 Simple Convolutional Neural Network with 3 layers.
 The results obtained until now can be shown on the ROC curve presented below:
@@ -200,7 +187,7 @@ The results obtained until now can be shown on the ROC curve presented below:
 
 ![](images/ROC_Curve_VGG-16_Data_Augmentation.png?raw=true)
 
-#### 6.1 CNN Architecture:
+#### 5.1 CNN Architecture:
 
   ![](images/CNN_Architecture.png?raw=true)
 
