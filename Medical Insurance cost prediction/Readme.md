@@ -5,7 +5,7 @@ Insurance is a policy that eliminates or decreases loss costs occurred by variou
 
 **Steps For Buliding a  Model**
 
-1.Display Top 5 Rows of The Dataset
+1. Display Top 5 Rows of The Dataset
 
 2. Check Last 5 Rows of The Dataset
 3. Find Shape of Our Dataset (Number of Rows And Number of Columns)
