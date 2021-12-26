@@ -1,6 +1,6 @@
-*MEDICAL INSURANCE COST PREDICTION 
-**Abstract 
-***Insurance is a policy that eliminates or decreases loss costs occurred by various risks. Various factors influence the cost of insurance. These considerations contribute to the insurance policy formulation. Machine learning (ML) for the insurance industry sector can make the wording of insurance policies more efficient. This study demonstrates how different models of regression can forecast insurance costs.
+#  MEDICAL INSURANCE COST PREDICTION 
+**Abstract** 
+Insurance is a policy that eliminates or decreases loss costs occurred by various risks. Various factors influence the cost of insurance. These considerations contribute to the insurance policy formulation. Machine learning (ML) for the insurance industry sector can make the wording of insurance policies more efficient. This study demonstrates how different models of regression can forecast insurance costs.
 **Steps For Buliding a  Model
 ***1.Display Top 5 Rows of The Dataset
 ***2. Check Last 5 Rows of The Dataset
